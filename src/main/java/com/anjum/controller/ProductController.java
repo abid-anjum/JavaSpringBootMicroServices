@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.anjum.domain.Product;
 import com.anjum.repository.ProductRepository;
-
+//RestController
 @RestController
 public class ProductController {
  
