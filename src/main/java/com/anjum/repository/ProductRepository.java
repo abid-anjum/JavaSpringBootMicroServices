@@ -1,0 +1,8 @@
+package com.anjum.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.anjum.domain.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}
